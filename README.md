@@ -145,6 +145,8 @@ Acorté las uniones entre las cunas de los morros y de los culos. Ahora van de l
 
 La V31 con espina impresa baja de **73,6 a 56,3 cm³** de geometría impresa. Modelé otra opción con dos palos de helado de canto, sujetos por tres asientos abiertos y bridas. Con los asientos incluidos, esa opción baja a **54,4 cm³ de plástico**, un ahorro adicional de **1,9 cm³**. Me quedaría con la espina impresa para la primera prueba. Quiero comprobar cuánto flexan las uniones cortas al escribir antes de reducir más material.
 
+[V31 en Blender](modelos/SO101_V31.blend) · Conjunto editable con espina impresa, organizado por subconjuntos. Quedan por definir las uniones desmontables y la preparación para imprimir.
+
 ## Créditos
 
 El cabezal se diseñó para el SO-101. Las mallas del robot incluidas como referencia en los modelos Blender proceden de [TheRobotStudio/SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100) y conservan su [licencia Apache 2.0](licencias/Apache-2.0.txt). En las escenas se han colocado y orientado para enseñar el montaje.
