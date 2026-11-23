@@ -69,6 +69,12 @@ La V24 está planteada. Quiero seguir usando materiales caseros donde tenga sent
 
 [Secuencia de montaje propuesta para la V24](MANUAL.md#v24-secuencia-propuesta)
 
+### Variante en abanico
+
+![V24 en abanico con los cuatro rotuladores a 60° y los refuerzos de madera](imagenes/08-v24-abanico.png)
+
+En esta variante puse los cuatro rotuladores en un plano perpendicular a la pinza, con los culos juntos y 60° entre cada par de vecinos. Una pieza común agrupa los topes traseros y una guía une los apoyos cerca de las puntas. Desde la parte ancha de las pinzas salen dos palos de helado hacia cada guía. Esta disposición ocupa más espacio alrededor del eje de giro. Queda por probar la rigidez del montaje y que solo pinte una punta cada vez.
+
 ## Créditos
 
 El cabezal se diseñó para el SO-101. Las mallas del robot incluidas como referencia en los modelos Blender proceden de [TheRobotStudio/SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100) y conservan su [licencia Apache 2.0](licencias/Apache-2.0.txt). En las escenas se han colocado y orientado para enseñar el montaje.
