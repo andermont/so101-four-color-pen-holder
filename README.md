@@ -113,6 +113,14 @@ En CAD, con el eje de muñeca a 45° respecto al papel y las puntas a 30 mm del 
 
 **Cómo cambié la forma de iterar.** Pasar por renders antes de preparar los modelos para imprimir me permite probar ideas mucho más rápido. Antes me ponía directamente con el modelo porque pensaba que estaba más cerca de tener una versión imprimible de lo que realmente estaba.
 
+## V29 - Rotuladores transversales con una guía común
+
+![V29 en posición de escritura y vista frontal del cabezal](imagenes/12-v29-guia-comun.png)
+
+Retomé la idea de la V18 con los rotuladores casi perpendiculares a la pinza. Dejé una guía común con cuatro bridas de plástico cerca de las puntas y dos travesaños con los topes en los culos. Una pared con un hueco triangular une los travesaños a las fundas.
+
+Separé las puntas 40° entre colores. Seleccionar los cuatro requiere 120° y deja 40° de margen por lado en los 200° de muñeca si centro el montaje. Con la muñeca paralela al papel, en CAD las cuatro puntas llegan a la misma marca, la vecina queda a 17,3 mm del papel y el cono activo pasa como mínimo a 1,4 mm. Queda por comprobar la rigidez de la guía y el ajuste de las fundas al montar.
+
 ## Créditos
 
 El cabezal se diseñó para el SO-101. Las mallas del robot incluidas como referencia en los modelos Blender proceden de [TheRobotStudio/SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100) y conservan su [licencia Apache 2.0](licencias/Apache-2.0.txt). En las escenas se han colocado y orientado para enseñar el montaje.
