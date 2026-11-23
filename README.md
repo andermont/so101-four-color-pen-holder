@@ -76,6 +76,17 @@ La V24 está planteada. Quiero seguir usando materiales caseros donde tenga sent
 
 En esta variante puse los cuatro rotuladores en un plano perpendicular a la pinza, con los culos juntos y 60° entre cada par de vecinos. Una pieza común agrupa los topes traseros y una guía une los apoyos cerca de las puntas. Desde la parte ancha de las pinzas salen dos palos de helado hacia cada guía. Esta disposición ocupa más espacio alrededor del eje de giro. Queda por probar la rigidez del montaje y que solo pinte una punta cada vez.
 
+## V25 — Cruz con bridas
+
+Volvería a la forma del [primer cabezal de cuatro colores](#cuatro-rotuladores-con-bridas). Haría dos fundas que abracen las mordazas por dentro y por fuera, un bloque central con cuatro alojamientos que hagan tope en los culos y una cuna rígida cerca de cada punta. Las bridas aprietan los rotuladores contra las cunas. El tope trasero fija cuánto sobresale cada rotulador y los dos apoyos mantienen su ángulo. Para que los cuatro lleguen a la misma marca al girar, las puntas tienen que quedar al mismo radio y en la misma posición a lo largo del eje.
+
+Una cruz exacta de 90° necesita 270° para seleccionar los cuatro colores solo con el giro de muñeca. El recorrido medido es de 250°, entre −80° y 170°.
+
+- **Mantener los 90°.** Unir la base de las fundas al portador mediante un acople centrado en el eje de la muñeca, con dos posiciones separadas 90°. Lo giraría a mano con el cabezal levantado y lo bloquearía con un pasador. La muñeca tendría tres colores accesibles en cada posición del acople. La segunda posición daría acceso al cuarto color.
+- **Cambiar los cuatro colores solo con la muñeca.** Mantener las fundas, las bridas y los dos apoyos por rotulador, con 70° entre colores consecutivos dentro del arco de trabajo. Los objetivos −60°, 10°, 80° y 150° ocupan 210° y dejan 20° de margen por lado. La separación entre el último y el primero por el otro lado sería de 150°.
+
+La V25 queda como concepto. La prueba de montaje es dibujar con presión real, cambiar de color varias veces y comprobar que solo marque la punta activa y que vuelva a la misma marca.
+
 ## Créditos
 
 El cabezal se diseñó para el SO-101. Las mallas del robot incluidas como referencia en los modelos Blender proceden de [TheRobotStudio/SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100) y conservan su [licencia Apache 2.0](licencias/Apache-2.0.txt). En las escenas se han colocado y orientado para enseñar el montaje.
