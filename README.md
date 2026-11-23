@@ -54,7 +54,9 @@ El CAD dejaba unos **4 mm** entre el papel y la punta vecina cuando un color est
 
 ## V24 · Qué cambiaría
 
-![Esquema de la V24 con mayor separación entre colores, guía delantera común y apoyos traseros](imagenes/06-v24-concepto.png)
+![Render conceptual de la V24 con guía delantera común y detalle de los topes traseros unidos por palillos](imagenes/07-v24-render.png)
+
+En el render he usado 60° entre colores como punto de partida. Los cuatro rotuladores van con la misma inclinación. Queda por probar el ajuste en las mordazas y cuánto cede el conjunto al escribir. [Ver el esquema de montaje](imagenes/06-v24-concepto.png).
 
 - **Dar más giro entre colores.** Quiero ganar margen para que cada punta escriba sola. Las cuatro posiciones tienen que caber en el recorrido útil de la muñeca.
 - **Montar los rotuladores con la misma inclinación.** Los pondría lo más cerca posible de las pinzas. Así es más fácil colocar las puntas y hacer una guía común.
