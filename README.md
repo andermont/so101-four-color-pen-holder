@@ -103,6 +103,16 @@ Recuperé la disposición del [primer cabezal de cuatro colores](#cuatro-rotulad
 
 Incliné los rotuladores unos 11° en sentido axial para que las puntas de las dos parejas lleguen a la misma marca sin que los cuerpos se crucen físicamente. Cada rotulador tiene dos cunas con bridas y un tope para el culo conectado al bloque central. En CAD, con rotuladores de 130 mm, el diámetro de giro queda en unos 154 mm y el rotulador inactivo más bajo queda a unos 19,5 mm del papel. Queda por comprobar el ajuste de las fundas y la rigidez al escribir.
 
+## V28 - Rotuladores paralelos al eje de giro
+
+![V28 en posición de escritura y vista por el eje de giro](imagenes/11-v28-rotuladores-paralelos.png)
+
+Con 200° de recorrido de muñeca, separé las puntas 55° entre colores. Los cuatro ocupan 165°, con 17,5° de margen por lado si centro el cabezal en el recorrido. Una placa trasera hace de tope y la delantera guía y aprieta cada rotulador cerca de la punta. Un travesaño une las dos placas.
+
+En CAD, con el eje de muñeca a 45° respecto al papel y las puntas a 30 mm del eje, los cuatro colores llegan a la misma marca. La punta vecina queda unos 9 mm por encima del papel. El cono del rotulador activo pasa a 0,7 mm del papel en el modelo. Queda por probar ese margen con los rotuladores reales y si el robot puede mantener la inclinación en toda la zona de dibujo.
+
+**Cómo cambié la forma de iterar.** Pasar por renders antes de preparar los modelos para imprimir me permite probar ideas mucho más rápido. Antes me ponía directamente con el modelo porque pensaba que estaba más cerca de tener una versión imprimible de lo que realmente estaba.
+
 ## Créditos
 
 El cabezal se diseñó para el SO-101. Las mallas del robot incluidas como referencia en los modelos Blender proceden de [TheRobotStudio/SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100) y conservan su [licencia Apache 2.0](licencias/Apache-2.0.txt). En las escenas se han colocado y orientado para enseñar el montaje.
