@@ -157,6 +157,20 @@ Uní la guía delantera a las fundas mediante una pared continua. Afiné las zon
 
 [V32 en Blender](modelos/SO101_V32.blend) · Conjunto editable con pasos de brida de 9 × 6 mm. Queda por comprobar la rigidez y el contacto con papel en una prueba física.
 
+## V33 - Fundas con bridas y acople por tetones
+
+![V33 montada y sus tres piezas tumbadas](imagenes/17-v33-acople-tetones.png)
+
+Abrí las puntas de fuera hasta dejar **46° entre cada par de colores consecutivos** y **138° de giro total**. Las cuatro siguen al mismo radio de 78 mm. En las cuatro posiciones nominales de escritura, la punta inactiva más baja queda **23,8 mm** por encima del papel.
+
+Primero se monta cada funda por separado. La ranura longitudinal deja que su brida apriete la funda contra la mordaza. Después se presenta el portarrotuladores desde abajo, se encajan los dos tetones y se pasa una brida de unión por cada pie de **9 × 6 mm** para rodear la funda. Los tetones lo posicionan y las bridas aprietan el acople. Dos tirantes laterales impresos unen las fundas con la guía delantera.
+
+El archivo tiene la escena montada y otra con las tres piezas tumbadas. En esa orientación, el portarrotuladores mide **42 mm de alto** y las fundas, **33 y 28 mm**. Son cotas de CAD. Quedan por preparar las mallas para laminar y comprobar el ajuste físico del encaje y la rigidez de los tirantes.
+
+El volumen geométrico de plástico es **52,1 cm³**. Con los 30 g de la V23 como referencia proporcional, serían **unos 49 g** para las piezas impresas y habría que añadir las bridas.
+
+[V33 en Blender](modelos/SO101_V33.blend)
+
 ## Créditos
 
 El cabezal se diseñó para el SO-101. Las mallas del robot incluidas como referencia en los modelos Blender proceden de [TheRobotStudio/SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100) y conservan su [licencia Apache 2.0](licencias/Apache-2.0.txt). En las escenas se han colocado y orientado para enseñar el montaje.
