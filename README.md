@@ -62,6 +62,7 @@ En el render he usado 60° entre colores como punto de partida. Los cuatro rotul
 - **Montar los rotuladores con la misma inclinación.** Los pondría lo más cerca posible de las pinzas. Así es más fácil colocar las puntas y hacer una guía común.
 - **Unir los apoyos delanteros.** Una guía rígida común cerca de las puntas mantendría fija su separación al escribir.
 - **Unir los topes traseros con palillos.** Haría huecos orientados en las piezas que sujetan la parte trasera de los rotuladores. Cada palillo encajaría en la dirección que toca, fijando la posición relativa de los topes. Así se evita que cada rotulador pueda bascular por su cuenta.
+- **Usar los palos de helado tal cual.** En la V23 fue muy tedioso hacer las muescas a mano. En la V24 quitaría ese paso y dejaría el encaje resuelto en las piezas impresas.
 - **Hacer que las fundas ajusten a las mordazas.** Tienen que cubrirlas y apoyar tanto por dentro como por fuera. Así el cabezal queda firme sin tener que rellenar los huecos.
 - **Poder montar por etapas.** Primero fijaría la base con las fundas a las pinzas. Después añadiría la guía delantera, los apoyos traseros, los palillos y los rotuladores. Quiero poder revisar y ajustar cada paso con el anterior ya fijo.
 
