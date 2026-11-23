@@ -171,6 +171,16 @@ El volumen geométrico de plástico es **52,1 cm³**. Con los 30 g de la V23 com
 
 [V33 en Blender](modelos/SO101_V33.blend)
 
+## V34 - Acople más bajo y pasos de brida más anchos
+
+![V34 montada y vista en cama](imagenes/18-v34-acople-bajo.png)
+
+Adelanté 7 mm los pies del acople por tetones, hacia los extremos de las fundas, y reduje su fondo. La altura máxima de las tres piezas tumbadas baja de **42 a 34,5 mm**. Amplié los pasos de unión a **10,5 × 6,5 mm** y los dos pasos centrales a **10 × 6 mm**.
+
+La V34 tiene **50,2 cm³** de volumen geométrico impreso. La separación mínima de las puntas inactivas sigue en **23,8 mm** en el CAD nominal. La escena de cama muestra la orientación de las tres piezas. Quedan pendientes la preparación de mallas, el laminado y la prueba física.
+
+[V34 en Blender](modelos/SO101_V34.blend)
+
 ## Créditos
 
 El cabezal se diseñó para el SO-101. Las mallas del robot incluidas como referencia en los modelos Blender proceden de [TheRobotStudio/SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100) y conservan su [licencia Apache 2.0](licencias/Apache-2.0.txt). En las escenas se han colocado y orientado para enseñar el montaje.
