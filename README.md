@@ -87,6 +87,14 @@ Una cruz exacta de 90° necesita 270° para seleccionar los cuatro colores solo 
 
 La V25 queda como concepto. La prueba de montaje es dibujar con presión real, cambiar de color varias veces y comprobar que solo marque la punta activa y que vuelva a la misma marca.
 
+## V26 — Cruz abierta a 70° con bridas
+
+![Vista montada, vista frontal y rango de giro de la V26](imagenes/09-v26-cruz-70.png)
+
+En esta versión llevo al CAD la opción de la V25 que permite cambiar los cuatro colores con la muñeca. Las fundas rodean las dos mordazas. Un bloque central hace tope en los culos y cada rotulador tiene otra cuna cerca de la punta. Dos bridas por rotulador lo mantienen asentado. Los nervios impresos unen las cunas al bloque central.
+
+Probé las cuatro posiciones en el modelo. Las puntas llegan a la misma marca y el rotulador vecino más bajo queda a unos 95 mm del plano del papel. Con rotuladores de 130 mm, la punta queda a 153 mm del eje y el cabezal barre unos 306 mm de diámetro. A esa distancia, 1° de holgura desplaza la punta unos 2,7 mm. Para probarlo en el robot queda comprobar el espacio de giro, el ajuste de las fundas y cuánto flexa al escribir.
+
 ## Créditos
 
 El cabezal se diseñó para el SO-101. Las mallas del robot incluidas como referencia en los modelos Blender proceden de [TheRobotStudio/SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100) y conservan su [licencia Apache 2.0](licencias/Apache-2.0.txt). En las escenas se han colocado y orientado para enseñar el montaje.
