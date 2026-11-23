@@ -46,7 +46,9 @@ Al preparar la impresión de esta etapa, nos presupuestaron cerca de **12 horas*
 
 Dejé impresos el puente, las fundas, las cunas y los topes. El resto lo monté con listones y bridas de bazar. La placa quedó en diez piezas y la pieza más alta rondaba los **24 mm**.
 
-En el montaje real tuve que rellenar las fundas porque se movían sobre las mordazas. Además, el puente, las fundas y los listones se condicionaban entre sí. Era difícil montar y ajustar una pieza sin tener que recolocar otra.
+Al sacar las piezas de la impresora me costó quitar el material de soporte de los huecos pequeños. Para la siguiente versión quiero menos huecos cerrados y pasos de brida cortos y holgados donde sí hagan falta. Si la brida puede ir por fuera, un labio basta para que se quede en su sitio.
+
+En el montaje real tuve que rellenar las fundas porque se movían sobre las mordazas. Además, me faltó una estructura que pudiera fijar primero a las pinzas y usar como base para ir acoplando el resto. El puente, las fundas y los listones se condicionaban entre sí. Era difícil montar y ajustar una pieza sin tener que recolocar otra.
 
 El CAD dejaba unos **4 mm** entre el papel y la punta vecina cuando un color estaba en posición. Entre la flexión, la holgura y cómo habían quedado montados los rotuladores, llegaron a marcar las cuatro puntas juntas. Solo conseguí aislar el azul y el verde, que quedaban en los extremos.
 
@@ -120,6 +122,20 @@ En CAD, con el eje de muñeca a 45° respecto al papel y las puntas a 30 mm del 
 Retomé la idea de la V18 con los rotuladores casi perpendiculares a la pinza. Dejé una guía común con cuatro bridas de plástico cerca de las puntas y dos travesaños con los topes en los culos. Una pared con un hueco triangular une los travesaños a las fundas.
 
 Separé las puntas 40° entre colores. Seleccionar los cuatro requiere 120° y deja 40° de margen por lado en los 200° de muñeca si centro el montaje. Con la muñeca paralela al papel, en CAD las cuatro puntas llegan a la misma marca, la vecina queda a 17,3 mm del papel y el cono activo pasa como mínimo a 1,4 mm. Queda por comprobar la rigidez de la guía y el ajuste de las fundas al montar.
+
+## V30 - Cunas traseras abiertas y bridas accesibles
+
+![Despiece funcional de la V30 por subconjuntos](imagenes/14-v30-despiece.png)
+
+El cabezal lleva cuatro rotuladores en un plano transversal. La sujeción principal está a media altura, donde el soporte se une a las pinzas. Un travesaño común guía los morros y otro une las cuatro cunas curvas abiertas de los culos. Cada cuna tiene un tope axial. La brida aprieta el rotulador directamente en la curva, que admite distintos diámetros.
+
+**La accesibilidad de las bridas es un criterio de diseño.** Siempre que haya espacio, la brida rodea la cuna por fuera. Un labio superior impide que suba hacia el culo al apretarla. En la sujeción central hay dos pasos cortos y rectos de 9 × 6 mm, accesibles por ambos lados. Los pasos se dimensionan con holgura para pasar la brida y extraer el material de soporte tras la impresión.
+
+El modelo nominal separa las puntas 40° y usa 120° de giro. Las cuatro puntas nominales llegan a la misma marca. La cuna abierta permite montar cuerpos de distinto diámetro, pero la posición al asentarlos puede variar. Al cambiar de tipo de rotulador, queda por comprobar el alcance de las puntas, su coincidencia y el ajuste de las bridas en una prueba física.
+
+En el despiece se ven la base central que va a las pinzas, la trasera común y la guía de los morros. Es una vista por subconjuntos y aún falta definir cómo se separarían para imprimir y en qué puntos se fijarían entre sí.
+
+La placa 3MF de la V23 tiene **31,7 cm³** de geometría impresa. La V30 ronda **73,6 cm³** en CAD contando una sola vez las zonas que se solapan. Son **41,9 cm³ más (+132 %)**. En la V23 parte de la estructura eran listones de madera. La comparación mide únicamente la geometría de las piezas previstas para imprimir. El consumo de filamento depende del laminado.
 
 ## Créditos
 
