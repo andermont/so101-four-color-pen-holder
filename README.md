@@ -147,6 +147,16 @@ La V31 con espina impresa baja de **73,6 a 56,3 cm³** de geometría impresa. Mo
 
 [V31 en Blender](modelos/SO101_V31.blend) · Conjunto editable con espina impresa, organizado por subconjuntos. Quedan por definir las uniones desmontables y la preparación para imprimir.
 
+## V32 - Arco común y guía unida a las fundas
+
+![V32 con las puntas sobre el mismo arco y la guía unida a las fundas](imagenes/16-v32-arco-comun.png)
+
+Bajé 5,7 mm las puntas azul y verde en la postura neutra. Abrí el ángulo entre la negra y la fucsia de 40° a 46° y giré los dos rotuladores para acercar sus culos. Quedan 32°, 46° y 32° entre colores. Las cuatro puntas siguen al mismo radio de 78 mm y en el mismo plano axial. En CAD, al escribir con el negro o el fucsia la otra punta de esa pareja queda a 23,8 mm del papel. En las cuatro posiciones de escritura, la punta inactiva más baja queda al menos a 11,9 mm del papel.
+
+Uní la guía delantera a las fundas mediante una pared continua. Afiné las zonas intermedias de las fundas, el anclaje central y la espina trasera. La V32 queda en **49,9 cm³** de plástico en CAD, frente a **56,3 cm³** de la V31. Si los 30 g de la V23 corresponden a las piezas impresas y se aplica la misma proporción de masa a volumen, la V32 rondaría **47 g** y la V31, **53 g**. El peso real queda pendiente de laminar o pesar.
+
+[V32 en Blender](modelos/SO101_V32.blend) · Conjunto editable con pasos de brida de 9 × 6 mm. Queda por comprobar la rigidez y el contacto con papel en una prueba física.
+
 ## Créditos
 
 El cabezal se diseñó para el SO-101. Las mallas del robot incluidas como referencia en los modelos Blender proceden de [TheRobotStudio/SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100) y conservan su [licencia Apache 2.0](licencias/Apache-2.0.txt). En las escenas se han colocado y orientado para enseñar el montaje.
