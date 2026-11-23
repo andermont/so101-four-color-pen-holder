@@ -137,6 +137,14 @@ En el despiece se ven la base central que va a las pinzas, la trasera común y l
 
 La placa 3MF de la V23 tiene **31,7 cm³** de geometría impresa. La V30 ronda **73,6 cm³** en CAD contando una sola vez las zonas que se solapan. Son **41,9 cm³ más (+132 %)**. En la V23 parte de la estructura eran listones de madera. La comparación mide únicamente la geometría de las piezas previstas para imprimir. El consumo de filamento depende del laminado.
 
+## V31 - Cunas finas y uniones directas
+
+![V31 con espina impresa y variante con dos palos de helado](imagenes/15-v31-cunas-finas.png)
+
+Acorté las uniones entre las cunas de los morros y de los culos. Ahora van de la pared de una cuna a la siguiente por el hueco entre ellas. Las cunas de los extremos tienen paredes de unos 2,2 mm y los topes traseros son pestañas pequeñas. Mantuve el anclaje central y los pasos de brida de 9 × 6 mm.
+
+La V31 con espina impresa baja de **73,6 a 56,3 cm³** de geometría impresa. Modelé otra opción con dos palos de helado de canto, sujetos por tres asientos abiertos y bridas. Con los asientos incluidos, esa opción baja a **54,4 cm³ de plástico**, un ahorro adicional de **1,9 cm³**. Me quedaría con la espina impresa para la primera prueba. Quiero comprobar cuánto flexan las uniones cortas al escribir antes de reducir más material.
+
 ## Créditos
 
 El cabezal se diseñó para el SO-101. Las mallas del robot incluidas como referencia en los modelos Blender proceden de [TheRobotStudio/SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100) y conservan su [licencia Apache 2.0](licencias/Apache-2.0.txt). En las escenas se han colocado y orientado para enseñar el montaje.
