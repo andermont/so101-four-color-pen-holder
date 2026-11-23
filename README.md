@@ -196,15 +196,16 @@ los 200° disponibles. Queda por comprobar el resultado con el conjunto montado.
 | Volumen de geometría impresa | 31,7 cm³ | 50,2 cm³, unos 18,5 cm³ más (+58 %) |
 | Peso de las piezas impresas | 30 g de referencia | Unos 47–48 g si se mantiene la proporción de masa a volumen de la V23 |
 | Altura máxima en la orientación de cama | Unos 24 mm | 34,5 mm |
+| Tiempo de impresión | Aproximadamente 1 h 30 min en la prueba | Pendiente de laminar con el perfil de la V23 |
 
 La V34 lleva más plástico porque el portarrotuladores incorpora los tirantes que en la V23 eran de
 madera. El peso estimado cubre solo las piezas impresas y depende del laminado.
 
-La placa de la V23 guarda la geometría y carece de un tiempo de laminado registrado. Para la V34
-estimo **8–12 h** en la Bambu Lab H2D con boquilla de **0,2 mm** y capas de **0,10 mm**, o
-**3–5 h** con boquilla de **0,4 mm** y capas de **0,20 mm**. La referencia disponible es el laminado
-de **11 h 28 min** de la V18 con boquilla de 0,2 mm. Falta laminar ambas versiones con el mismo
-perfil para saber cuánto cambia el tiempo respecto a la V23.
+Si el tiempo escalara solo con el volumen de las piezas, los 90 minutos de la V23 equivaldrían a
+unas **2 h 20 min** para la V34. Es una referencia orientativa. La V34 tiene más altura en la cama
+y una geometría distinta, así que los soportes y los recorridos de la boquilla pueden cambiar el
+resultado. Las **11 h 28 min** de la V18 corresponden a otra geometría con un perfil de 0,2 mm de
+boquilla y 0,10 mm de capa. Para comparar tiempos, queda por laminar la V34 con el perfil usado en la V23.
 
 ## Créditos
 
