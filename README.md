@@ -95,6 +95,14 @@ En esta versión llevo al CAD la opción de la V25 que permite cambiar los cuatr
 
 Probé las cuatro posiciones en el modelo. Las puntas llegan a la misma marca y el rotulador vecino más bajo queda a unos 95 mm del plano del papel. Con rotuladores de 130 mm, la punta queda a 153 mm del eje y el cabezal barre unos 306 mm de diámetro. A esa distancia, 1° de holgura desplaza la punta unos 2,7 mm. Para probarlo en el robot queda comprobar el espacio de giro, el ajuste de las fundas y cuánto flexa al escribir.
 
+## V27 — Dos parejas cruzadas con bridas
+
+![Vista montada, vista frontal y rango de giro de la V27](imagenes/10-v27-dos-parejas.png)
+
+Recuperé la disposición del [primer cabezal de cuatro colores](#cuatro-rotuladores-con-bridas). Hay dos parejas superpuestas y los rotuladores de cada pareja apuntan en sentidos opuestos. Cerré el cruce de 90° a 50°. Los cuatro colores se seleccionan en −70°, −20°, 110° y 160°, con 10° de margen en cada extremo del recorrido medido.
+
+Incliné los rotuladores unos 11° en sentido axial para que las puntas de las dos parejas lleguen a la misma marca sin que los cuerpos se crucen físicamente. Cada rotulador tiene dos cunas con bridas y un tope para el culo conectado al bloque central. En CAD, con rotuladores de 130 mm, el diámetro de giro queda en unos 154 mm y el rotulador inactivo más bajo queda a unos 19,5 mm del papel. Queda por comprobar el ajuste de las fundas y la rigidez al escribir.
+
 ## Créditos
 
 El cabezal se diseñó para el SO-101. Las mallas del robot incluidas como referencia en los modelos Blender proceden de [TheRobotStudio/SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100) y conservan su [licencia Apache 2.0](licencias/Apache-2.0.txt). En las escenas se han colocado y orientado para enseñar el montaje.
