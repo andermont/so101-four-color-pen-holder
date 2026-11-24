@@ -2,15 +2,15 @@
 
 **Diseño mecánico y prototipado por [Ander Mont](https://github.com/andermont).**
 
-Empecé con un rotulador en la pinza de un SO-101. La idea era llegar a cuatro colores y elegir cuál pinta con el giro de muñeca que ya trae el robot.
+Empezamos con un rotulador en la pinza de un SO-101. La idea era llegar a cuatro colores y elegir cuál pinta con el giro de muñeca que ya trae el robot.
 
-Para la demo conseguí que dos colores pintaran por separado con un montaje de cinta. La V23 fue la versión impresa que probé con cuatro. El montaje tenía demasiada holgura para la precisión que pedía el diseño.
+Para la demo conseguimos que dos colores pintaran por separado con un montaje de cinta. La V23 fue la versión impresa que probamos con cuatro. El montaje tenía demasiada holgura para la precisión que pedía el diseño.
 
 ## Un rotulador
 
 ![Vista CAD del soporte fijo con un rotulador](imagenes/01-guia-fija.png)
 
-Lo primero era agarrar un rotulador y probar a dibujar. Hice una guía de una pieza que va sobre el dedo fijo. La mordaza móvil aprieta el rotulador contra una cuna en V.
+Lo primero era agarrar un rotulador y probar a dibujar. Hicimos una guía de una pieza que va sobre el dedo fijo. La mordaza móvil aprieta el rotulador contra una cuna en V.
 
 [Modelo Blender](modelos/SO101_Guia_Fija.blend) · [Archivo de impresión](modelos/SO101_Guia_Fija.3mf)
 
@@ -18,7 +18,7 @@ Lo primero era agarrar un rotulador y probar a dibujar. Hice una guía de una pi
 
 ![Vista CAD de cuatro rotuladores sobre sus cunas con bridas](imagenes/02-cuatro-con-bridas.png)
 
-Pasé a dos pares de rotuladores. Los escaloné para hacer sitio a los cuerpos y usé dos bridas por rotulador. En este diseño, pasar por las cuatro posiciones requería **270° de giro**. En el brazo medimos **250° útiles**, de −80° a 170°. El diseño tenía que respetar ese recorrido.
+Pasamos a dos pares de rotuladores. Los escalonamos para hacer sitio a los cuerpos y usamos dos bridas por rotulador. En este diseño, pasar por las cuatro posiciones requería **270° de giro**. En el brazo medimos **250° útiles**, de −80° a 170°. El diseño tenía que respetar ese recorrido.
 
 [Modelo Blender](modelos/SO101_Cabezal_4_Colores.blend) · [Cuerpo STL](modelos/SO101_Cabezal_4_Colores.stl)
 
@@ -26,7 +26,7 @@ Pasé a dos pares de rotuladores. Los escaloné para hacer sitio a los cuerpos y
 
 ![Vista CAD del cabezal con cierres de carraca](imagenes/03-v10-carracas.png)
 
-Quería poder cambiar un rotulador sin cortar una brida cada vez. Probé un cierre impreso con bisagra y carraca. El cierre me pareció demasiado endeble, y el rotulador necesitaba quedar firme tanto cerca de la punta como en el extremo trasero.
+Queríamos poder cambiar un rotulador sin cortar una brida cada vez. Probamos un cierre impreso con bisagra y carraca. El cierre nos pareció demasiado endeble, y el rotulador necesitaba quedar firme tanto cerca de la punta como en el extremo trasero.
 
 [V10 en Blender](modelos/SO101_V10.blend) · [Muestra de un cierre](modelos/Prueba_carraca_D19-1.3mf)
 
@@ -34,9 +34,9 @@ Quería poder cambiar un rotulador sin cortar una brida cada vez. Probé un cier
 
 ![Vista CAD de la V17 con paredes de refuerzo](imagenes/04-v17-reforzada.png)
 
-Pedí formas más simples y más apoyo alrededor de la pinza. También incliné los rotuladores de forma distinta para acercar sus cuerpos al brazo. Cuanto más cerca queda la masa de la pinza y de la muñeca, menos palanca hace. La V17 agrupaba las puntas en un arco con **21° entre colores**. En CAD, cada punta llegaba a la misma marca al girar la muñeca.
+Buscamos formas más simples y más apoyo alrededor de la pinza. También inclinamos los rotuladores de forma distinta para acercar sus cuerpos al brazo. Cuanto más cerca queda la masa de la pinza y de la muñeca, menos palanca hace. La V17 agrupaba las puntas en un arco con **21° entre colores**. En CAD, cada punta llegaba a la misma marca al girar la muñeca.
 
-Al preparar la impresión de esta etapa, nos presupuestaron cerca de **12 horas**. La captura del laminador mostraba **11 h 28 min** con boquilla de **0,2 mm** y capas de **0,10 mm**. Buscaba acercarme a **3–4 horas**, así que empecé a sacar de la impresión todo lo que podía montar con materiales corrientes.
+Al preparar la impresión de esta etapa, nos presupuestaron cerca de **12 horas**. La captura del laminador mostraba **11 h 28 min** con boquilla de **0,2 mm** y capas de **0,10 mm**. Buscábamos acercarnos a **3–4 horas**, así que empezamos a sacar de la impresión todo lo que podíamos montar con materiales corrientes.
 
 [V17 en Blender](modelos/SO101_V17.blend) · [Esquema de giro de la V17](imagenes/v17-seleccion-color.png) · [Placa de la V18](modelos/SO101_V18.3mf) · [Vista de la cama de la V18](imagenes/v18-placa-impresion.png)
 
@@ -44,168 +44,45 @@ Al preparar la impresión de esta etapa, nos presupuestaron cerca de **12 horas*
 
 ![Vista CAD de la V23 montada con listones y bridas](imagenes/05-v23-montada.png)
 
-Dejé impresos el puente, las fundas, las cunas y los topes. El resto lo monté con listones y bridas de bazar. La placa quedó en diez piezas y la pieza más alta rondaba los **24 mm**.
+Dejamos impresos el puente, las fundas, las cunas y los topes. El resto lo montamos con listones y bridas de bazar. La placa quedó en diez piezas y la pieza más alta rondaba los **24 mm**.
 
-Al sacar las piezas de la impresora me costó quitar el material de soporte de los huecos pequeños. Para la siguiente versión quiero menos huecos cerrados y pasos de brida cortos y holgados donde sí hagan falta. Si la brida puede ir por fuera, un labio basta para que se quede en su sitio.
+Al sacar las piezas de la impresora nos costó quitar el material de soporte de los huecos pequeños. Para la siguiente versión buscamos reducir los huecos cerrados y dejar pasos de brida cortos y holgados donde hacían falta. Si la brida puede ir por fuera, un labio basta para que se quede en su sitio.
 
-En el montaje real tuve que rellenar las fundas porque se movían sobre las mordazas. Además, me faltó una estructura que pudiera fijar primero a las pinzas y usar como base para ir acoplando el resto. El puente, las fundas y los listones se condicionaban entre sí. Era difícil montar y ajustar una pieza sin tener que recolocar otra.
+En el montaje real tuvimos que rellenar las fundas porque se movían sobre las mordazas. Echamos en falta una estructura que pudiéramos fijar primero a las pinzas y usar como base para acoplar el resto. El puente, las fundas y los listones se condicionaban entre sí. Era difícil montar y ajustar una pieza sin tener que recolocar otra.
 
-El CAD dejaba unos **4 mm** entre el papel y la punta vecina cuando un color estaba en posición. Entre la flexión, la holgura y cómo habían quedado montados los rotuladores, llegaron a marcar las cuatro puntas juntas. Solo conseguí aislar el azul y el verde, que quedaban en los extremos.
+El CAD dejaba unos **4 mm** entre el papel y la punta vecina cuando un color estaba en posición. Entre la flexión, la holgura y cómo habían quedado montados los rotuladores, llegaron a marcar las cuatro puntas juntas. Solo conseguimos aislar el azul y el verde, que quedaban en los extremos.
 
 [V23 en Blender](modelos/SO101_V23_Plana.blend) · [Placa 3MF](modelos/SO101_V23_Impresion.3mf) · [Vista de la cama](imagenes/v23-placa-impresion.png) · [Manual de montaje](MANUAL.md)
 
-## V24 · Qué cambiaría
+## De la V24 a la V34 · Cómo llegamos al diseño actual
 
-![Render conceptual de la V24 con guía delantera común y detalle de los topes traseros unidos por palillos](imagenes/07-v24-render.png)
+Tuvimos que hacer varias iteraciones hasta dar con un diseño coherente. La prueba de la V23 nos dejó tres problemas que había que resolver a la vez. Cada punta tenía que pintar sola y llegar a la misma marca, el conjunto tenía que quedar firme en la pinza y el montaje tenía que poder hacerse por etapas.
 
-En el render he usado 60° entre colores como punto de partida. Los cuatro rotuladores van con la misma inclinación. Queda por probar el ajuste en las mordazas y cuánto cede el conjunto al escribir. [Ver el esquema de montaje](imagenes/06-v24-concepto.png).
+| Versiones | Qué probamos y qué nos llevamos |
+| --- | --- |
+| **V24** | Exploramos un montaje con más separación angular y apoyos unidos por delante y por detrás. También planteamos fijar las fundas primero para poder añadir y ajustar el resto después. [Concepto](imagenes/07-v24-render.png) · [Variante en abanico](imagenes/08-v24-abanico.png) · [Secuencia de montaje](MANUAL.md#v24-secuencia-propuesta) |
+| **V25 a V28** | Probamos cruces abiertos, parejas cruzadas y rotuladores paralelos al eje de giro. Estas variantes nos sirvieron para comparar cuánto giro necesitábamos, cuánto espacio barría el cabezal y cuánta holgura quedaba entre las puntas inactivas y el papel. [V26](imagenes/09-v26-cruz-70.png) · [V27](imagenes/10-v27-dos-parejas.png) · [V28](imagenes/11-v28-rotuladores-paralelos.png) |
+| **V29 a V32** | Volvimos a montar los rotuladores casi perpendiculares a la pinza. Unimos las guías delanteras y los topes traseros, abrimos las cunas para facilitar el paso de las bridas y acortamos las uniones para reducir material. Ajustamos las cuatro puntas a un radio común de 78 mm. [V29](imagenes/12-v29-guia-comun.png) · [Despiece V30](imagenes/14-v30-despiece.png) · [V31 en Blender](modelos/SO101_V31.blend) · [V32 en Blender](modelos/SO101_V32.blend) |
+| **V33 y V34** | Separamos el portarrotuladores de las dos fundas. Los tetones lo posicionan y las bridas fijan el acople después de montar las fundas. En la V34 bajamos la altura máxima en cama de 42 a 34,5 mm y ensanchamos los pasos de brida hasta 10,5 × 6,5 mm en el acople y 10 × 6 mm en el centro. [V33 en Blender](modelos/SO101_V33.blend) · [V34 en Blender](modelos/SO101_V34.blend) |
 
-- **Dar más giro entre colores.** Quiero ganar margen para que cada punta escriba sola. Las cuatro posiciones tienen que caber en el recorrido útil de la muñeca.
-- **Montar los rotuladores con la misma inclinación.** Los pondría lo más cerca posible de las pinzas. Así es más fácil colocar las puntas y hacer una guía común.
-- **Unir los apoyos delanteros.** Una guía rígida común cerca de las puntas mantendría fija su separación al escribir.
-- **Unir los topes traseros con palillos.** Haría huecos orientados en las piezas que sujetan la parte trasera de los rotuladores. Cada palillo encajaría en la dirección que toca, fijando la posición relativa de los topes. Así se evita que cada rotulador pueda bascular por su cuenta.
-- **Usar los palos de helado tal cual.** En la V23 fue muy tedioso hacer las muescas a mano. En la V24 quitaría ese paso y dejaría el encaje resuelto en las piezas impresas.
-- **Hacer que las fundas ajusten a las mordazas.** Tienen que cubrirlas y apoyar tanto por dentro como por fuera. Así el cabezal queda firme sin tener que rellenar los huecos.
-- **Poder montar por etapas.** Primero fijaría la base con las fundas a las pinzas. Después añadiría la guía delantera, los apoyos traseros, los palillos y los rotuladores. Quiero poder revisar y ajustar cada paso con el anterior ya fijo.
+Empezamos a comparar las ideas con renders antes de preparar cada modelo para impresión. Eso nos permitió iterar más rápido sobre la separación de las puntas, los apoyos y el orden de montaje.
 
-La V24 está planteada. Quiero seguir usando materiales caseros donde tenga sentido e imprimir las piezas que fijan la geometría. La prueba será hacer varios cambios de color y dibujar un trazo con cada uno, con presión de escritura y los cuatro montados. Tiene que pintar solo el que toca, sin recolocar los rotuladores entre trazos.
-
-[Secuencia de montaje propuesta para la V24](MANUAL.md#v24-secuencia-propuesta)
-
-### Variante en abanico
-
-![V24 en abanico con los cuatro rotuladores a 60° y los refuerzos de madera](imagenes/08-v24-abanico.png)
-
-En esta variante puse los cuatro rotuladores en un plano perpendicular a la pinza, con los culos juntos y 60° entre cada par de vecinos. Una pieza común agrupa los topes traseros y una guía une los apoyos cerca de las puntas. Desde la parte ancha de las pinzas salen dos palos de helado hacia cada guía. Esta disposición ocupa más espacio alrededor del eje de giro. Queda por probar la rigidez del montaje y que solo pinte una punta cada vez.
-
-## V25 — Cruz con bridas
-
-Volvería a la forma del [primer cabezal de cuatro colores](#cuatro-rotuladores-con-bridas). Haría dos fundas que abracen las mordazas por dentro y por fuera, un bloque central con cuatro alojamientos que hagan tope en los culos y una cuna rígida cerca de cada punta. Las bridas aprietan los rotuladores contra las cunas. El tope trasero fija cuánto sobresale cada rotulador y los dos apoyos mantienen su ángulo. Para que los cuatro lleguen a la misma marca al girar, las puntas tienen que quedar al mismo radio y en la misma posición a lo largo del eje.
-
-Una cruz exacta de 90° necesita 270° para seleccionar los cuatro colores solo con el giro de muñeca. El recorrido medido es de 250°, entre −80° y 170°.
-
-- **Mantener los 90°.** Unir la base de las fundas al portador mediante un acople centrado en el eje de la muñeca, con dos posiciones separadas 90°. Lo giraría a mano con el cabezal levantado y lo bloquearía con un pasador. La muñeca tendría tres colores accesibles en cada posición del acople. La segunda posición daría acceso al cuarto color.
-- **Cambiar los cuatro colores solo con la muñeca.** Mantener las fundas, las bridas y los dos apoyos por rotulador, con 70° entre colores consecutivos dentro del arco de trabajo. Los objetivos −60°, 10°, 80° y 150° ocupan 210° y dejan 20° de margen por lado. La separación entre el último y el primero por el otro lado sería de 150°.
-
-La V25 queda como concepto. La prueba de montaje es dibujar con presión real, cambiar de color varias veces y comprobar que solo marque la punta activa y que vuelva a la misma marca.
-
-## V26 — Cruz abierta a 70° con bridas
-
-![Vista montada, vista frontal y rango de giro de la V26](imagenes/09-v26-cruz-70.png)
-
-En esta versión llevo al CAD la opción de la V25 que permite cambiar los cuatro colores con la muñeca. Las fundas rodean las dos mordazas. Un bloque central hace tope en los culos y cada rotulador tiene otra cuna cerca de la punta. Dos bridas por rotulador lo mantienen asentado. Los nervios impresos unen las cunas al bloque central.
-
-Probé las cuatro posiciones en el modelo. Las puntas llegan a la misma marca y el rotulador vecino más bajo queda a unos 95 mm del plano del papel. Con rotuladores de 130 mm, la punta queda a 153 mm del eje y el cabezal barre unos 306 mm de diámetro. A esa distancia, 1° de holgura desplaza la punta unos 2,7 mm. Para probarlo en el robot queda comprobar el espacio de giro, el ajuste de las fundas y cuánto flexa al escribir.
-
-## V27 — Dos parejas cruzadas con bridas
-
-![Vista montada, vista frontal y rango de giro de la V27](imagenes/10-v27-dos-parejas.png)
-
-Recuperé la disposición del [primer cabezal de cuatro colores](#cuatro-rotuladores-con-bridas). Hay dos parejas superpuestas y los rotuladores de cada pareja apuntan en sentidos opuestos. Cerré el cruce de 90° a 50°. Los cuatro colores se seleccionan en −70°, −20°, 110° y 160°, con 10° de margen en cada extremo del recorrido medido.
-
-Incliné los rotuladores unos 11° en sentido axial para que las puntas de las dos parejas lleguen a la misma marca sin que los cuerpos se crucen físicamente. Cada rotulador tiene dos cunas con bridas y un tope para el culo conectado al bloque central. En CAD, con rotuladores de 130 mm, el diámetro de giro queda en unos 154 mm y el rotulador inactivo más bajo queda a unos 19,5 mm del papel. Queda por comprobar el ajuste de las fundas y la rigidez al escribir.
-
-## V28 - Rotuladores paralelos al eje de giro
-
-![V28 en posición de escritura y vista por el eje de giro](imagenes/11-v28-rotuladores-paralelos.png)
-
-Con 200° de recorrido de muñeca, separé las puntas 55° entre colores. Los cuatro ocupan 165°, con 17,5° de margen por lado si centro el cabezal en el recorrido. Una placa trasera hace de tope y la delantera guía y aprieta cada rotulador cerca de la punta. Un travesaño une las dos placas.
-
-En CAD, con el eje de muñeca a 45° respecto al papel y las puntas a 30 mm del eje, los cuatro colores llegan a la misma marca. La punta vecina queda unos 9 mm por encima del papel. El cono del rotulador activo pasa a 0,7 mm del papel en el modelo. Queda por probar ese margen con los rotuladores reales y si el robot puede mantener la inclinación en toda la zona de dibujo.
-
-**Cómo cambié la forma de iterar.** Pasar por renders antes de preparar los modelos para imprimir me permite probar ideas mucho más rápido. Antes me ponía directamente con el modelo porque pensaba que estaba más cerca de tener una versión imprimible de lo que realmente estaba.
-
-## V29 - Rotuladores transversales con una guía común
-
-![V29 en posición de escritura y vista frontal del cabezal](imagenes/12-v29-guia-comun.png)
-
-Retomé la idea de la V18 con los rotuladores casi perpendiculares a la pinza. Dejé una guía común con cuatro bridas de plástico cerca de las puntas y dos travesaños con los topes en los culos. Una pared con un hueco triangular une los travesaños a las fundas.
-
-Separé las puntas 40° entre colores. Seleccionar los cuatro requiere 120° y deja 40° de margen por lado en los 200° de muñeca si centro el montaje. Con la muñeca paralela al papel, en CAD las cuatro puntas llegan a la misma marca, la vecina queda a 17,3 mm del papel y el cono activo pasa como mínimo a 1,4 mm. Queda por comprobar la rigidez de la guía y el ajuste de las fundas al montar.
-
-## V30 - Cunas traseras abiertas y bridas accesibles
-
-![Despiece funcional de la V30 por subconjuntos](imagenes/14-v30-despiece.png)
-
-El cabezal lleva cuatro rotuladores en un plano transversal. La sujeción principal está a media altura, donde el soporte se une a las pinzas. Un travesaño común guía los morros y otro une las cuatro cunas curvas abiertas de los culos. Cada cuna tiene un tope axial. La brida aprieta el rotulador directamente en la curva, que admite distintos diámetros.
-
-**La accesibilidad de las bridas es un criterio de diseño.** Siempre que haya espacio, la brida rodea la cuna por fuera. Un labio superior impide que suba hacia el culo al apretarla. En la sujeción central hay dos pasos cortos y rectos de 9 × 6 mm, accesibles por ambos lados. Los pasos se dimensionan con holgura para pasar la brida y extraer el material de soporte tras la impresión.
-
-El modelo nominal separa las puntas 40° y usa 120° de giro. Las cuatro puntas nominales llegan a la misma marca. La cuna abierta permite montar cuerpos de distinto diámetro, pero la posición al asentarlos puede variar. Al cambiar de tipo de rotulador, queda por comprobar el alcance de las puntas, su coincidencia y el ajuste de las bridas en una prueba física.
-
-En el despiece se ven la base central que va a las pinzas, la trasera común y la guía de los morros. Es una vista por subconjuntos y aún falta definir cómo se separarían para imprimir y en qué puntos se fijarían entre sí.
-
-La placa 3MF de la V23 tiene **31,7 cm³** de geometría impresa. La V30 ronda **73,6 cm³** en CAD contando una sola vez las zonas que se solapan. Son **41,9 cm³ más (+132 %)**. En la V23 parte de la estructura eran listones de madera. La comparación mide únicamente la geometría de las piezas previstas para imprimir. El consumo de filamento depende del laminado.
-
-## V31 - Cunas finas y uniones directas
-
-![V31 con espina impresa y variante con dos palos de helado](imagenes/15-v31-cunas-finas.png)
-
-Acorté las uniones entre las cunas de los morros y de los culos. Ahora van de la pared de una cuna a la siguiente por el hueco entre ellas. Las cunas de los extremos tienen paredes de unos 2,2 mm y los topes traseros son pestañas pequeñas. Mantuve el anclaje central y los pasos de brida de 9 × 6 mm.
-
-La V31 con espina impresa baja de **73,6 a 56,3 cm³** de geometría impresa. Modelé otra opción con dos palos de helado de canto, sujetos por tres asientos abiertos y bridas. Con los asientos incluidos, esa opción baja a **54,4 cm³ de plástico**, un ahorro adicional de **1,9 cm³**. Me quedaría con la espina impresa para la primera prueba. Quiero comprobar cuánto flexan las uniones cortas al escribir antes de reducir más material.
-
-[V31 en Blender](modelos/SO101_V31.blend) · Conjunto editable con espina impresa, organizado por subconjuntos. Quedan por definir las uniones desmontables y la preparación para imprimir.
-
-## V32 - Arco común y guía unida a las fundas
-
-![V32 con las puntas sobre el mismo arco y la guía unida a las fundas](imagenes/16-v32-arco-comun.png)
-
-Bajé 5,7 mm las puntas azul y verde en la postura neutra. Abrí el ángulo entre la negra y la fucsia de 40° a 46° y giré los dos rotuladores para acercar sus culos. Quedan 32°, 46° y 32° entre colores. Las cuatro puntas siguen al mismo radio de 78 mm y en el mismo plano axial. En CAD, al escribir con el negro o el fucsia la otra punta de esa pareja queda a 23,8 mm del papel. En las cuatro posiciones de escritura, la punta inactiva más baja queda al menos a 11,9 mm del papel.
-
-Uní la guía delantera a las fundas mediante una pared continua. Afiné las zonas intermedias de las fundas, el anclaje central y la espina trasera. La V32 queda en **49,9 cm³** de plástico en CAD, frente a **56,3 cm³** de la V31. Si los 30 g de la V23 corresponden a las piezas impresas y se aplica la misma proporción de masa a volumen, la V32 rondaría **47 g** y la V31, **53 g**. El peso real queda pendiente de laminar o pesar.
-
-[V32 en Blender](modelos/SO101_V32.blend) · Conjunto editable con pasos de brida de 9 × 6 mm. Queda por comprobar la rigidez y el contacto con papel en una prueba física.
-
-## V33 - Fundas con bridas y acople por tetones
-
-![V33 montada y sus tres piezas tumbadas](imagenes/17-v33-acople-tetones.png)
-
-Abrí las puntas de fuera hasta dejar **46° entre cada par de colores consecutivos** y **138° de giro total**. Las cuatro siguen al mismo radio de 78 mm. En las cuatro posiciones nominales de escritura, la punta inactiva más baja queda **23,8 mm** por encima del papel.
-
-Primero se monta cada funda por separado. La ranura longitudinal deja que su brida apriete la funda contra la mordaza. Después se presenta el portarrotuladores desde abajo, se encajan los dos tetones y se pasa una brida de unión por cada pie de **9 × 6 mm** para rodear la funda. Los tetones lo posicionan y las bridas aprietan el acople. Dos tirantes laterales impresos unen las fundas con la guía delantera.
-
-El archivo tiene la escena montada y otra con las tres piezas tumbadas. En esa orientación, el portarrotuladores mide **42 mm de alto** y las fundas, **33 y 28 mm**. Son cotas de CAD. Quedan por preparar las mallas para laminar y comprobar el ajuste físico del encaje y la rigidez de los tirantes.
-
-El volumen geométrico de plástico es **52,1 cm³**. Con los 30 g de la V23 como referencia proporcional, serían **unos 49 g** para las piezas impresas y habría que añadir las bridas.
-
-[V33 en Blender](modelos/SO101_V33.blend)
-
-## V34 - Acople más bajo y pasos de brida más anchos
+### V34 frente a la V23
 
 ![V34 montada y vista en cama](imagenes/18-v34-acople-bajo.png)
 
-Adelanté 7 mm los pies del acople por tetones, hacia los extremos de las fundas, y reduje su fondo. La altura máxima de las tres piezas tumbadas baja de **42 a 34,5 mm**. Amplié los pasos de unión a **10,5 × 6,5 mm** y los dos pasos centrales a **10 × 6 mm**.
-
-La V34 tiene **50,2 cm³** de volumen geométrico impreso. La separación mínima de las puntas inactivas sigue en **23,8 mm** en el CAD nominal. La escena de cama muestra la orientación de las tres piezas. Quedan pendientes la preparación de mallas, el laminado y la prueba física.
-
-[V34 en Blender](modelos/SO101_V34.blend)
-
-### Qué cambia de la V23 a la V34
-
-En la prueba de la V23 solo conseguí que el azul y el verde pintaran por separado. En la V34 abrí el
-ángulo entre colores para ganar margen y uní las guías de los morros y los topes de los culos para
-que cada rotulador mantenga su posición. En CAD, los cuatro llegan a la misma marca al terminar
-cada giro de muñeca. Hay **46° entre colores consecutivos** y **138° de recorrido total** dentro de
-los 200° disponibles. Queda por comprobar el resultado con el conjunto montado.
+En la prueba de la V23 solo conseguimos aislar el azul y el verde. En el CAD de la V34 dejamos **46° entre colores consecutivos**. Los cuatro rotuladores llegan a la misma marca con **138° de giro total**. Queda por preparar las mallas para laminar y comprobar el ajuste y el contacto con el papel en el robot.
 
 | | V23 | V34 |
 | --- | --- | --- |
 | Distancia del papel a la punta inactiva más baja, en CAD | Unos 4 mm | 23,8 mm |
-| Piezas y montaje | 10 piezas impresas, listones con muescas y bridas | 3 piezas previstas para imprimir. Primero se ajustan las dos fundas con sus bridas. Luego se encaja el portarrotuladores con dos tetones y se asegura con otras dos bridas. |
+| Piezas y montaje | 10 piezas impresas, listones con muescas y bridas | 3 piezas previstas para imprimir. Primero ajustamos las dos fundas con sus bridas. Después encajamos el portarrotuladores con dos tetones y lo aseguramos con otras dos bridas. |
 | Volumen de geometría impresa | 31,7 cm³ | 50,2 cm³, unos 18,5 cm³ más (+58 %) |
 | Peso de las piezas impresas | 30 g de referencia | Unos 47–48 g si se mantiene la proporción de masa a volumen de la V23 |
 | Altura máxima en la orientación de cama | Unos 24 mm | 34,5 mm |
 | Tiempo de impresión | Aproximadamente 1 h 30 min en la prueba | Pendiente de laminar con el perfil de la V23 |
 
-La V34 lleva más plástico porque el portarrotuladores incorpora los tirantes que en la V23 eran de
-madera. El peso estimado cubre solo las piezas impresas y depende del laminado.
-
-Si el tiempo escalara solo con el volumen de las piezas, los 90 minutos de la V23 equivaldrían a
-unas **2 h 20 min** para la V34. Es una referencia orientativa. La V34 tiene más altura en la cama
-y una geometría distinta, así que los soportes y los recorridos de la boquilla pueden cambiar el
-resultado. Las **11 h 28 min** de la V18 corresponden a otra geometría con un perfil de 0,2 mm de
-boquilla y 0,10 mm de capa. Para comparar tiempos, queda por laminar la V34 con el perfil usado en la V23.
+La V34 lleva más plástico porque el portarrotuladores incorpora los tirantes que en la V23 eran de madera. Si el tiempo escalara solo con el volumen de las piezas, los 90 minutos de la V23 equivaldrían a unas **2 h 20 min** para la V34. Es una referencia orientativa. La altura, los soportes y el recorrido de la boquilla pueden cambiar el resultado. Los **11 h 28 min** de la V18 corresponden a otra geometría y otro perfil.
 
 ## Créditos
 
